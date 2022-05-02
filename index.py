@@ -1,3 +1,14 @@
+'''
+Created May 2, 2022
+
+@Authors:
+- Emilio Popovits Blake (A01027265)
+- Patricio Tena (A01027293)
+- Maximiliano Sapién Fernández (A01027541)
+- Rodrigo Benavente (A01026973)
+- Karen Isabel Morgado Castillo (A01027446)
+'''
+
 from os import listdir, path
 import matplotlib.pyplot as plt
 import numpy as np
@@ -196,5 +207,6 @@ if __name__ == '__main__':
     clauses, variables, num_clauses = loadProblem(file)
     
     solution = shoningAlgorithm(clauses, variables, num_clauses, file)
+    
     print('Solution found: ' + str(solution))
     print('Solution steps were saved in ./solutions/solution_' + file)
