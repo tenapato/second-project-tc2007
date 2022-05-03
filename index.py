@@ -169,7 +169,7 @@ def shoningAlgorithm(clauses, variables, num_clauses, file):
 
     # Initialize the solution file
     solution_file_path = './solutions/solution_' + file
-    solution_file = open(solution_file_path, 'a')
+    solution_file = open(solution_file_path, 'w')
     solution_file.write('Initial assignment: ' + str(initial_assignment))
     solution_file.write('\nNumber of variables: ' + str(variables))
     solution_file.write('\nNumber of clauses: ' + str(num_clauses))
@@ -208,5 +208,9 @@ if __name__ == '__main__':
     
     solution = shoningAlgorithm(clauses, variables, num_clauses, file)
     
-    print('Solution found: ' + str(solution))
-    print('Solution steps were saved in ./solutions/solution_' + file)
+    if solution == 0:
+        print('No solution found: 0')
+        print('Steps were saved in ./solutions/solution_' + file)
+    else:
+        print('Solution found: ' + str(solution))
+        print('Solution steps were saved in ./solutions/solution_' + file)
