@@ -1,0 +1,282 @@
+Initial assignment: [1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 0 0 0 1 1]
+Number of variables: 20
+Number of clauses: 91
+
+*********************************************** iteration no.0
+Satisfactory Clauses: 89
+Unsatisfactory Clauses: 2
+ - Variable to Change: 8
+New assignment: [1 1 1 1 1 1 0 0 1 1 1 0 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.1
+Satisfactory Clauses: 89
+Unsatisfactory Clauses: 2
+ - Variable to Change: 3
+New assignment: [1 1 0 1 1 1 0 0 1 1 1 0 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.2
+Satisfactory Clauses: 88
+Unsatisfactory Clauses: 3
+ - Variable to Change: 1
+New assignment: [0 1 0 1 1 1 0 0 1 1 1 0 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.3
+Satisfactory Clauses: 83
+Unsatisfactory Clauses: 8
+ - Variable to Change: 12
+New assignment: [0 1 0 1 1 1 0 0 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.4
+Satisfactory Clauses: 86
+Unsatisfactory Clauses: 5
+ - Variable to Change: 10
+New assignment: [0 1 0 1 1 1 0 0 1 0 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.5
+Satisfactory Clauses: 82
+Unsatisfactory Clauses: 9
+ - Variable to Change: 2
+New assignment: [0 0 0 1 1 1 0 0 1 0 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.6
+Satisfactory Clauses: 79
+Unsatisfactory Clauses: 12
+ - Variable to Change: 7
+New assignment: [0 0 0 1 1 1 1 0 1 0 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.7
+Satisfactory Clauses: 82
+Unsatisfactory Clauses: 9
+ - Variable to Change: 10
+New assignment: [0 0 0 1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.8
+Satisfactory Clauses: 85
+Unsatisfactory Clauses: 6
+ - Variable to Change: 1
+New assignment: [1 0 0 1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.9
+Satisfactory Clauses: 89
+Unsatisfactory Clauses: 2
+ - Variable to Change: 1
+New assignment: [0 0 0 1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.10
+Satisfactory Clauses: 85
+Unsatisfactory Clauses: 6
+ - Variable to Change: 5
+New assignment: [0 0 0 1 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.11
+Satisfactory Clauses: 83
+Unsatisfactory Clauses: 8
+ - Variable to Change: 8
+New assignment: [0 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.12
+Satisfactory Clauses: 83
+Unsatisfactory Clauses: 8
+ - Variable to Change: 20
+New assignment: [0 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 0 0 1 0]
+
+*********************************************** iteration no.13
+Satisfactory Clauses: 81
+Unsatisfactory Clauses: 10
+ - Variable to Change: 20
+New assignment: [0 0 0 1 0 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.14
+Satisfactory Clauses: 83
+Unsatisfactory Clauses: 8
+ - Variable to Change: 6
+New assignment: [0 0 0 1 0 0 1 1 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.15
+Satisfactory Clauses: 81
+Unsatisfactory Clauses: 10
+ - Variable to Change: 4
+New assignment: [0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.16
+Satisfactory Clauses: 79
+Unsatisfactory Clauses: 12
+ - Variable to Change: 3
+New assignment: [0 0 1 0 0 0 1 1 1 1 1 1 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.17
+Satisfactory Clauses: 80
+Unsatisfactory Clauses: 11
+ - Variable to Change: 12
+New assignment: [0 0 1 0 0 0 1 1 1 1 1 0 0 1 1 0 0 0 1 1]
+
+*********************************************** iteration no.18
+Satisfactory Clauses: 77
+Unsatisfactory Clauses: 14
+ - Variable to Change: 14
+New assignment: [0 0 1 0 0 0 1 1 1 1 1 0 0 0 1 0 0 0 1 1]
+
+*********************************************** iteration no.19
+Satisfactory Clauses: 73
+Unsatisfactory Clauses: 18
+ - Variable to Change: 7
+New assignment: [0 0 1 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 1 1]
+
+*********************************************** iteration no.20
+Satisfactory Clauses: 67
+Unsatisfactory Clauses: 24
+ - Variable to Change: 15
+New assignment: [0 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 1 1]
+
+*********************************************** iteration no.21
+Satisfactory Clauses: 62
+Unsatisfactory Clauses: 29
+ - Variable to Change: 8
+New assignment: [0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1]
+
+*********************************************** iteration no.22
+Satisfactory Clauses: 59
+Unsatisfactory Clauses: 32
+ - Variable to Change: 17
+New assignment: [0 0 1 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 1 1]
+
+*********************************************** iteration no.23
+Satisfactory Clauses: 67
+Unsatisfactory Clauses: 24
+ - Variable to Change: 13
+New assignment: [0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0 1 1]
+
+*********************************************** iteration no.24
+Satisfactory Clauses: 71
+Unsatisfactory Clauses: 20
+ - Variable to Change: 20
+New assignment: [0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0 1 0]
+
+*********************************************** iteration no.25
+Satisfactory Clauses: 69
+Unsatisfactory Clauses: 22
+ - Variable to Change: 11
+New assignment: [0 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 1 0 1 0]
+
+*********************************************** iteration no.26
+Satisfactory Clauses: 61
+Unsatisfactory Clauses: 30
+ - Variable to Change: 3
+New assignment: [0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 0 1 0]
+
+*********************************************** iteration no.27
+Satisfactory Clauses: 54
+Unsatisfactory Clauses: 37
+ - Variable to Change: 7
+New assignment: [0 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 1 0 1 0]
+
+*********************************************** iteration no.28
+Satisfactory Clauses: 62
+Unsatisfactory Clauses: 29
+ - Variable to Change: 6
+New assignment: [0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 0 1 0 1 0]
+
+*********************************************** iteration no.29
+Satisfactory Clauses: 68
+Unsatisfactory Clauses: 23
+ - Variable to Change: 4
+New assignment: [0 0 0 1 0 1 1 0 1 1 0 0 1 0 0 0 1 0 1 0]
+
+*********************************************** iteration no.30
+Satisfactory Clauses: 73
+Unsatisfactory Clauses: 18
+ - Variable to Change: 14
+New assignment: [0 0 0 1 0 1 1 0 1 1 0 0 1 1 0 0 1 0 1 0]
+
+*********************************************** iteration no.31
+Satisfactory Clauses: 78
+Unsatisfactory Clauses: 13
+ - Variable to Change: 13
+New assignment: [0 0 0 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 1 0]
+
+*********************************************** iteration no.32
+Satisfactory Clauses: 72
+Unsatisfactory Clauses: 19
+ - Variable to Change: 19
+New assignment: [0 0 0 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+
+*********************************************** iteration no.33
+Satisfactory Clauses: 65
+Unsatisfactory Clauses: 26
+ - Variable to Change: 3
+New assignment: [0 0 1 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+
+*********************************************** iteration no.34
+Satisfactory Clauses: 70
+Unsatisfactory Clauses: 21
+ - Variable to Change: 10
+New assignment: [0 0 1 1 0 1 1 0 1 0 0 0 0 1 0 0 1 0 0 0]
+
+*********************************************** iteration no.35
+Satisfactory Clauses: 68
+Unsatisfactory Clauses: 23
+ - Variable to Change: 19
+New assignment: [0 0 1 1 0 1 1 0 1 0 0 0 0 1 0 0 1 0 1 0]
+
+*********************************************** iteration no.36
+Satisfactory Clauses: 74
+Unsatisfactory Clauses: 17
+ - Variable to Change: 3
+New assignment: [0 0 0 1 0 1 1 0 1 0 0 0 0 1 0 0 1 0 1 0]
+
+*********************************************** iteration no.37
+Satisfactory Clauses: 69
+Unsatisfactory Clauses: 22
+ - Variable to Change: 16
+New assignment: [0 0 0 1 0 1 1 0 1 0 0 0 0 1 0 1 1 0 1 0]
+
+*********************************************** iteration no.38
+Satisfactory Clauses: 74
+Unsatisfactory Clauses: 17
+ - Variable to Change: 12
+New assignment: [0 0 0 1 0 1 1 0 1 0 0 1 0 1 0 1 1 0 1 0]
+
+*********************************************** iteration no.39
+Satisfactory Clauses: 76
+Unsatisfactory Clauses: 15
+ - Variable to Change: 16
+New assignment: [0 0 0 1 0 1 1 0 1 0 0 1 0 1 0 0 1 0 1 0]
+
+*********************************************** iteration no.40
+Satisfactory Clauses: 71
+Unsatisfactory Clauses: 20
+ - Variable to Change: 10
+New assignment: [0 0 0 1 0 1 1 0 1 1 0 1 0 1 0 0 1 0 1 0]
+
+*********************************************** iteration no.41
+Satisfactory Clauses: 74
+Unsatisfactory Clauses: 17
+ - Variable to Change: 15
+New assignment: [0 0 0 1 0 1 1 0 1 1 0 1 0 1 1 0 1 0 1 0]
+
+*********************************************** iteration no.42
+Satisfactory Clauses: 80
+Unsatisfactory Clauses: 11
+ - Variable to Change: 2
+New assignment: [0 1 0 1 0 1 1 0 1 1 0 1 0 1 1 0 1 0 1 0]
+
+*********************************************** iteration no.43
+Satisfactory Clauses: 84
+Unsatisfactory Clauses: 7
+ - Variable to Change: 13
+New assignment: [0 1 0 1 0 1 1 0 1 1 0 1 1 1 1 0 1 0 1 0]
+
+*********************************************** iteration no.44
+Satisfactory Clauses: 87
+Unsatisfactory Clauses: 4
+ - Variable to Change: 5
+New assignment: [0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 0 1 0]
+
+*********************************************** iteration no.45
+Satisfactory Clauses: 89
+Unsatisfactory Clauses: 2
+ - Variable to Change: 1
+New assignment: [1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 0 1 0]
+
+*********************************************** iteration no.46
+Solution Found: [1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 0 1 0]
