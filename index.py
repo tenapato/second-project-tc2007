@@ -129,7 +129,7 @@ def updateSolution(file_path, iteration, satisfactory_clauses, unsatisfactory_cl
         file.write('\nNew assignment: ' + str(new_assignment))
         file.write('\n')
     else:
-        file.write('\Solution Found: ' + new_assignment)
+        file.write('\nSolution Found: ' + str(new_assignment))
 
     file.close()
 
@@ -208,7 +208,7 @@ if __name__ == '__main__':
     
     solution = shoningAlgorithm(clauses, variables, num_clauses, file)
     
-    if solution == 0:
+    if isinstance(solution, int):
         print('No solution found: 0')
         print('Steps were saved in ./solutions/solution_' + file)
     else:
