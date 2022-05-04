@@ -104,7 +104,8 @@ def checkSatisfied(bitstring, clauses):
             unsatisfactory_clauses += 1
 
         result = result_clause if result == None else result and result_clause
-    
+    #pushback a los unsatisfactory_clauses
+    graphUnsatisfactory.append(unsatisfactory_clauses)
     return (result, satisfactory_clauses, unsatisfactory_clauses)
 
 def updateSolution(file_path, iteration, satisfactory_clauses, unsatisfactory_clauses, variable_to_change, new_assignment, found=False):
@@ -181,12 +182,13 @@ def shoningAlgorithm(clauses, variables, num_clauses, file):
     # Begin algorithm
     current_assignment = initial_assignment
     for i in range(3 * variables):
-
         # Check if the current assignment satisfies the 3SAT problem
         satisfied, satisfactory_clauses, unsatisfactory_clauses = checkSatisfied(current_assignment, clauses)
         # (Guard clause) If the current assignment satisfies the 3SAT problem, update the solution file and return the current assignment
         if satisfied == True:
             updateSolution(solution_file_path, i, satisfactory_clauses, unsatisfactory_clauses, 'N/A', current_assignment, found=True)
+            #graph the Unsat
+            graph(graphUnsatisfactory,i)
             return current_assignment
 
         # Randomly select a bit to update in the bitstring from a discrete random distribution
@@ -196,20 +198,25 @@ def shoningAlgorithm(clauses, variables, num_clauses, file):
 
         # Print iteration to the solution file
         updateSolution(solution_file_path, i, satisfactory_clauses, unsatisfactory_clauses, random_selection + 1, current_assignment)
-    
+    #graph the Unsat
+    graph(graphUnsatisfactory,(3 * variables-1))
     # If no solution was found, report it in the solution file and return 0
     solution_file = open(solution_file_path, 'a')
     solution_file.write('\n***********************************************')
     solution_file.write('\nNo solution found in ' + str(3 * variables) + ' iterations')
     solution_file.close()
     return 0
-
-def graph(unsatisfactoryC):
+  
+def graph(unsatisfactoryC,iterations):
   x = []
-  for z in range(0, 60):
+  iterations += 1
+  
+  for z in range(0, iterations):
     x.append(z)
-    
+  
+  #area = 150 
   fig, ax = plt.subplots()  
+  #grahp = plt.scatter(x, unsatisfactoryC, s=area, c=unsatisfactoryC, cmap='cool', alpha=1)
   plt.plot(x, unsatisfactoryC)
   
   for i, txt in enumerate(x):
@@ -218,16 +225,14 @@ def graph(unsatisfactoryC):
   # nombre del txt file seleccionado
   plt.title('graph_solution_' + file)
   plt.savefig('./graphs/graph_solution_' + file + '.png')
-
+  
 if __name__ == '__main__':
     file = selectProblem()
     clauses, variables, num_clauses = loadProblem(file)
     
     solution = shoningAlgorithm(clauses, variables, num_clauses, file)
-
-    graph(graphUnsatisfactory)
   
-    if isinstance(solution, int):
+    if isinstance (solution,int):
         print('No solution found: 0')
         print('Steps were saved in ./solutions/solution_' + file)
     else:

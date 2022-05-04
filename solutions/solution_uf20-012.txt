@@ -1,0 +1,60 @@
+Initial assignment: [1 0 0 0 1 1 0 0 0 0 1 1 1 1 1 1 0 1 0 0]
+Number of variables: 20
+Number of clauses: 91
+
+*********************************************** iteration no.0
+Satisfactory Clauses: 79
+Unsatisfactory Clauses: 12
+ - Variable to Change: 8
+New assignment: [1 0 0 0 1 1 0 1 0 0 1 1 1 1 1 1 0 1 0 0]
+
+*********************************************** iteration no.1
+Satisfactory Clauses: 84
+Unsatisfactory Clauses: 7
+ - Variable to Change: 10
+New assignment: [1 0 0 0 1 1 0 1 0 1 1 1 1 1 1 1 0 1 0 0]
+
+*********************************************** iteration no.2
+Satisfactory Clauses: 85
+Unsatisfactory Clauses: 6
+ - Variable to Change: 3
+New assignment: [1 0 1 0 1 1 0 1 0 1 1 1 1 1 1 1 0 1 0 0]
+
+*********************************************** iteration no.3
+Satisfactory Clauses: 87
+Unsatisfactory Clauses: 4
+ - Variable to Change: 7
+New assignment: [1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0]
+
+*********************************************** iteration no.4
+Satisfactory Clauses: 90
+Unsatisfactory Clauses: 1
+ - Variable to Change: 19
+New assignment: [1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 0]
+
+*********************************************** iteration no.5
+Satisfactory Clauses: 90
+Unsatisfactory Clauses: 1
+ - Variable to Change: 16
+New assignment: [1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 0 0 1 1 0]
+
+*********************************************** iteration no.6
+Satisfactory Clauses: 90
+Unsatisfactory Clauses: 1
+ - Variable to Change: 8
+New assignment: [1 0 1 0 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0]
+
+*********************************************** iteration no.7
+Satisfactory Clauses: 89
+Unsatisfactory Clauses: 2
+ - Variable to Change: 2
+New assignment: [1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 0]
+
+*********************************************** iteration no.8
+Satisfactory Clauses: 90
+Unsatisfactory Clauses: 1
+ - Variable to Change: 17
+New assignment: [1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 0 1 1 1 0]
+
+*********************************************** iteration no.9
+Solution Found: [1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 0 1 1 1 0]
