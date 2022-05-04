@@ -13,6 +13,8 @@ from os import listdir, path
 import matplotlib.pyplot as plt
 import numpy as np
 
+graphUnsatisfactory = []
+
 def selectProblem():
     """
     Finds all 3SAT problems found in the ./problems/ directory and 
@@ -202,12 +204,29 @@ def shoningAlgorithm(clauses, variables, num_clauses, file):
     solution_file.close()
     return 0
 
+def graph(unsatisfactoryC):
+  x = []
+  for z in range(0, 60):
+    x.append(z)
+    
+  fig, ax = plt.subplots()  
+  plt.plot(x, unsatisfactoryC)
+  
+  for i, txt in enumerate(x):
+      ax.annotate(txt + 1, (x[i], unsatisfactoryC[i]))
+  
+  # nombre del txt file seleccionado
+  plt.title('graph_solution_' + file)
+  plt.savefig('./graphs/graph_solution_' + file + '.png')
+
 if __name__ == '__main__':
     file = selectProblem()
     clauses, variables, num_clauses = loadProblem(file)
     
     solution = shoningAlgorithm(clauses, variables, num_clauses, file)
-    
+
+    graph(graphUnsatisfactory)
+  
     if isinstance(solution, int):
         print('No solution found: 0')
         print('Steps were saved in ./solutions/solution_' + file)
